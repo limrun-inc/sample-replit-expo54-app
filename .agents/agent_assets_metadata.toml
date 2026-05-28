@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "NATwBVPsHlO4xd4QHIAkI"
+uri = "file://artifacts/mobile/assets/images/icon.png"
+type = "image"
+title = "contact swiper app icon"
