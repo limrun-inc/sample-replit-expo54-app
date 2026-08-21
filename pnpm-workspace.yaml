@@ -158,3 +158,11 @@ overrides:
   # drizzle-kit uses esbuild internally on an older version that's vulnerable, this overrides it
   "@esbuild-kit/esm-loader": "npm:tsx@^4.21.0"
   esbuild: "0.27.3"
+  # Security pins for Dependabot/audit alerts (nanoid infinite loop, brace-expansion DoS)
+  "nanoid@^3.0.0": "3.3.18"
+  "brace-expansion@<1.1.18": "1.1.18"
+  "brace-expansion@>=2.0.0 <2.1.4": "2.1.4"
+  "brace-expansion@>=3.0.0 <5.0.9": "5.0.9"
+
+allowBuilds:
+  esbuild: set this to true or false
