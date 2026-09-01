@@ -153,6 +153,10 @@ overrides:
   brace-expansion@<1.1.18: 1.1.18
   brace-expansion@>=2.0.0 <2.1.4: 2.1.4
   brace-expansion@>=3.0.0 <5.0.9: 5.0.9
+  decode-uri-component@<=0.4.2: 0.5.0
+
+patchedDependencies:
+  decode-uri-component@0.5.0: 71dfaeaa323cf7dd31b362d6cfc3f2ca598a26d4177c4fc8760443abcb587af8
 
 importers:
 
@@ -3086,9 +3090,9 @@ packages:
   decimal.js-light@2.5.1:
     resolution: {integrity: sha512-qIMFpTMZmny+MMIitAB6D7iVPEorVw6YQRWkvarTkT4tBeSLLiHzcwj6q0MmYSFCiVpiqPJTJEYIrpcPzVEIvg==}
 
-  decode-uri-component@0.2.2:
-    resolution: {integrity: sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==}
-    engines: {node: '>=0.10'}
+  decode-uri-component@0.5.0:
+    resolution: {integrity: sha512-1BiQVoK8C9gUbQU6NzAtO/tkz2qOFpEObMWpcFvhx4fYnj4Oc5yzaJN/LD36ihkVUdXyh5ZekzX+yM+ty/SrPg==}
+    engines: {node: '>=14.16'}
 
   decompress-response@6.0.0:
     resolution: {integrity: sha512-aW35yZM6Bb/4oJlZncMH2LCoZtJXTRxES17vE3hoRiowU2kWHaJKFkSBDnDR+cm9J+9QhXmREyIfv0pji9ejCQ==}
@@ -9098,7 +9102,7 @@ snapshots:
 
   decimal.js-light@2.5.1: {}
 
-  decode-uri-component@0.2.2: {}
+  decode-uri-component@0.5.0(patch_hash=71dfaeaa323cf7dd31b362d6cfc3f2ca598a26d4177c4fc8760443abcb587af8): {}
 
   decompress-response@6.0.0:
     dependencies:
@@ -10910,7 +10914,7 @@ snapshots:
 
   query-string@7.1.3:
     dependencies:
-      decode-uri-component: 0.2.2
+      decode-uri-component: 0.5.0(patch_hash=71dfaeaa323cf7dd31b362d6cfc3f2ca598a26d4177c4fc8760443abcb587af8)
       filter-obj: 1.1.0
       split-on-first: 1.1.0
       strict-uri-encode: 2.0.0
