@@ -163,3 +163,9 @@ overrides:
   "brace-expansion@<1.1.18": "1.1.18"
   "brace-expansion@>=2.0.0 <2.1.4": "2.1.4"
   "brace-expansion@>=3.0.0 <5.0.9": "5.0.9"
+  # Security pins for Dependabot alerts (xmldom, browserslist, baseline-browser-mapping, qs)
+  "@xmldom/xmldom@^0.8.0": "^0.8.15"
+  "@xmldom/xmldom@^0.9.0": "^0.9.12"
+  "browserslist@^4.0.0": "^4.28.7"
+  "baseline-browser-mapping@^2.0.0": "^2.11.0"
+  "qs@^6.0.0": "^6.16.0"
