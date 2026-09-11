@@ -169,3 +169,6 @@ overrides:
   "browserslist@^4.0.0": "^4.28.7"
   "baseline-browser-mapping@^2.0.0": "^2.11.0"
   "qs@^6.0.0": "^6.16.0"
+  # Security pins for Dependabot alert GHSA-2883-xcg3-v3hh (js-yaml)
+  "js-yaml@^3.0.0": "^3.15.2"
+  "js-yaml@^4.0.0": "^4.3.2"
