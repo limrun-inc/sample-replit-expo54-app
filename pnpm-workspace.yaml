@@ -160,9 +160,9 @@ overrides:
   esbuild: "0.27.3"
   # Security pins for Dependabot/audit alerts (nanoid infinite loop, brace-expansion DoS)
   "nanoid@^3.0.0": "3.3.18"
-  "brace-expansion@<1.1.18": "1.1.18"
-  "brace-expansion@>=2.0.0 <2.1.4": "2.1.4"
-  "brace-expansion@>=3.0.0 <5.0.9": "5.0.9"
+  "brace-expansion@<1.1.21": "1.1.21"
+  "brace-expansion@>=2.0.0 <2.1.7": "2.1.7"
+  "brace-expansion@>=3.0.0 <5.0.12": "5.0.12"
   # Security pins for Dependabot alerts (xmldom, browserslist, baseline-browser-mapping, qs)
   "@xmldom/xmldom@^0.8.0": "^0.8.15"
   "@xmldom/xmldom@^0.9.0": "^0.9.12"
